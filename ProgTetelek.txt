@@ -1,0 +1,26 @@
+using System;
+class Program
+{
+	static void Main()
+	{
+		int[] t = {9, 7, 3, 5, 4, 2, 6};
+		int n = t.Length;
+		int c = 0;
+		for(int i=0; i<n; i++)
+			if(t[i] < 5)
+				c++;
+ 
+		Console.WriteLine("5-nél kisebb számok darabszáma: {0}", c);
+
+		int[] t = {9, 7, 3, 5, 4, 2, 6};
+		int n = t.Length;
+		int ker = 5; 
+		int i = 0;
+		while(t[i] != ker)
+			i++;
+ 
+		Console.WriteLine("Az 5-ös indexe: {0}", i);
+
+
+	}
+}
